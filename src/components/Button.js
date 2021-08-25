@@ -1,10 +1,7 @@
 import PropTypes from 'prop-types'
 
-function Button({ color,text}) {
+function Button({ color,text, onClick}) {
 
-    const onClick = (e) => {
-        console.log('click')
-    }
 
     return (
         <div>
